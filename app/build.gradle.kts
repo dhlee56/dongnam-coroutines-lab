@@ -53,14 +53,13 @@ dependencies {
     implementation(libs.androidx.compose.material3)
 
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.1")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.1")
 
     implementation("androidx.room:room-ktx:2.4.1")
     kapt("androidx.room:room-compiler:2.4.1")
 
     implementation("com.google.code.gson:gson:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
     implementation("androidx.work:work-runtime-ktx:2.7.1")
 

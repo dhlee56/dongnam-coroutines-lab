@@ -167,7 +167,8 @@ class MainActivity : ComponentActivity() {
                         Text(snackbar)
                         Box(Modifier
                             .weight(1f)
-                            .background(Color.White)) {
+                            .background(Color.White)
+                        ) {
                             Text(
                                 text = title,
                                 style = MaterialTheme.typography.titleLarge,
